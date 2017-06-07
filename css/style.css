@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:700');
+.container {
+  max-width: 60em;
+  margin: 0 auto;
+}
+
+.nav-bg {
+  background-color: #21232b;
+}
+
+.btn-warning {
+  font-family: inherit;
+  background-color: #eb8c06;
+  color: #2b0517;
+}
+.btn-warning:hover {
+  background-color: #2b0517;
+  color: #eb8c06;
+  border-color:#2b0517;
+}
+
+image-holder {
+  width: 150px;
+  height: 100px;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-image: url('');
+}
+
+.col-md-6 {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+.col-4 {
+  padding-left: 0px;
+  max-width: 18%;
+}
+
+.about-background {
+  background-image: url("https://drive.google.com/uc?export=download&id=0B4MjMg8AJbLhRGFMWGVxVW1YMjQ");
+  background-position: 95% 35%;
+  background-size: cover;
+}
+
+.col-sm-4,
+.col-xs-6 img {
+  width: 70%;
+  padding-bottom: 30px
+}
+
+skills-fix {
+  padding-bottom: 200px !important;
+}
+
+.about-me {
+  padding: 5% 5vw 5vw 5vw;
+  text-align: center;
+}
+
+section.module:last-child {
+  margin-bottom: 0;
+}
+
+section.module h3 {
+  text-align: center;
+  font-family: "Roboto Slab", serif;
+  font-size: 1.875em;
+}
+
+section.module h2 {
+  margin-bottom: 20px;
+  font-family: 'Lobster', cursive, serif;
+  font-size: 1.875em;
+  color: #8b0100;
+}
+
+section.module p {
+  margin-bottom: 40px;
+  font-size: 1em;
+  font-weight: 300;
+}
+
+section.module p:last-child {
+  margin-bottom: 0;
+}
+
+section.module.content {
+  padding: 40px 0;
+}
+
+section.module.parallax {
+  height: 600px;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+section.module.parallax h1 {
+  color: rgba(255, 255, 255, 1);
+  font-size: 2em;
+  line-height: 600px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 1);
+  margin-bottom: -260px;
+  filter: brightness(100%)!important;
+}
+
+section.module.parallax h3 {
+  color: rgba(255, 255, 255, 1);
+  padding-bottom: 30px;
+  font-size: 2.2vw;
+  line-height: 0px;
+  font-weight: 500;
+  text-align: center;
+  text-transform: uppercase;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 1);
+  margin: 0 -2vw 0 -2vw !important;
+}
+
+section.module.parallax-1 {
+  background-image: url('https://drive.google.com/uc?export=download&id=0B4MjMg8AJbLhMVE3LU1KUWlPSDQ');
+}
+
+section.module.parallax-2 {
+  background-image: linear-gradient( rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.5)), url('https://drive.google.com/uc?export=download&id=0B4MjMg8AJbLhOXhmSi1qeXR1ajA');
+}
+
+section.module.parallax-3 {
+  background-image: linear-gradient( rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.5)), url('https://drive.google.com/uc?export=download&id=0B4MjMg8AJbLhX1ZjamFDdU5zU0E');
+}
+
+@media all and (min-width: 37.5em) {
+  section.module h2 {
+    font-size: 3.625em;
+    padding-bottom: 20px;
+  }
+  section.module p {
+/*     font-size: 1.25em; */
+    font-size:2vw
+  }
+  section.module.parallax h1 {
+    font-size: 4em;
+    margin-bottom: -220px;
+  }
+
+  .caption h2 {
+  margin-bottom: 0px !important;
+  padding-bottom: 0px !important;
+  font-size: 2em !important;
+}
+  .caption p {
+  font-size: 1em !important;
+}
+  
+  .other-skills h2 {
+  margin-bottom: 0px !important;
+  font-size: 4.5vw !important;
+}
+
+@media all and (min-width: 60em) {
+  section.module.parallax h1 {
+    font-size: 6em;
+    margin-bottom: -210px !important;
+  }
+  section.module h2 {
+    font-size: 4em;
+  }
+  section.module.parallax h3 {
+    font-size: 1.5em;
+  }
+  section.module p {
+    font-size:1.2em
+  }
+  .caption p {
+   font-size: 1vw !important;
+}
+  .other-skills h2 {
+  margin-bottom: 0px !important;
+  font-size: 2.1em !important;
+}
+}
+
+*:focus {
+  outline: 0 !important;
+}
+
+.nav-link {
+  margin: 0px 0;
+}
+
+.navbar-inverse .navbar-toggler {
+  border-color: transparent;
+  cursor: pointer;
+}
+
+.dropdown-menu {
+  background-color: #494d5c;
+  border: none;
+}
+
+.dropdown-item {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.dropdown-item:hover {
+  color: white;
+  background-color: #696e81;
+}
+
+
+.d-flex img {
+  min-width: 0;
+  width: 100%;
+  padding-top:5px
+}
